@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Comic Sans MS";
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Anime-Landscape-Backgrounds.jpg");
+    background-color: #ffe2bb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IMCResult_Container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 25px;
+    border: solid 1px black;
+    border-radius: 15px;
+    background-color: #ffffff;
+    gap: 45px;
+}
+
+.IMCResult_Content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CalculoIMC_Container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px
+}
+
+button {
+    padding: 6px;
+    background-color: lightgray;
+    border-radius: 3px;
+}

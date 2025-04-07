@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" th:href="@{/css/index.css}">
+    <title>CalculaIMC</title>
+</head>
+<body>
+    <section class="Input_Container">
+        <h1>Calculadora IMC</h1>
+        <form action="/" method="post" class="form_Container">
+            <div class="input_Content">
+                <label>Peso: </label><input type="text" placeholder="peso..." name="peso">
+            </div>
+            <div class="input_Content">
+                <label>Altura: </label><input type="text" placeholder="altura..." name="altura">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
