@@ -31,19 +31,19 @@ public class ControllerIMC {
         String valIMC = df.format(imc);
         String resultado;
         String mensagem;
-        if (imc < (double)18.5F) {
+        if (imc < 18.5) {
             resultado = "Magreza (-18,5)";
-            mensagem = "Cuide-se bem!";
-        } else if (imc < (double)25.0F) {
+            mensagem = "Cuidar de sí mesmo(a) é importante!!";
+        } else if (imc < 25.0) {
             resultado = "Normal (18,5 a 24,9)";
-            mensagem = "Parabéns!!";
-        } else if (imc < (double)30.0F) {
+            mensagem = "Você está no caminho certo, parabéns!!";
+        } else if (imc < 30.0) {
             resultado = "sobrepeso (25 a 29,9)";
             mensagem = "Força e determinação!";
-        } else if (imc < (double)35.0F) {
+        } else if (imc < 35.0) {
             resultado = "Obesidade grau I (30 a 34,9)";
-            mensagem = "Você está quase lá! Não desanime!!";
-        } else if (imc < (double)40.0F) {
+            mensagem = "seu bem-estar é valioso";
+        } else if (imc < 40.0) {
             resultado = "Obesidade grau II (35 a 39,9)";
             mensagem = "Cada escolha saudável é um passo correto!";
         } else {
